@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarWorld</title>
+
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/reviews.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="name"><a href="main.html">CarWorld</a></div>
+        <div class="bar">
+            <a href="catalog.html"><div>Каталог</div></a>
+            <a href="reviews.html"><div>Відгуки</div></a>
+            <a href="contact.html"><div>Контакти</div></a>
+        </div>
+    </header>
+
+    <div class="reviews-grid">
+        <div class="title">
+            Відгуки
+        </div>
+        <div class="user-name">Ваше ім'я</div>
+        <input class="review-input-name" type="text">
+        <div class="review-rating-text">Оцінка</div>
+        <select class="review-rating-rate">
+            <option>1⭐</option>
+            <option>2⭐</option>
+            <option>3⭐</option>
+            <option>4⭐</option>
+            <option>5⭐</option>
+        </select>
+        <div class="review-text">Залиште відгук про наш сервіс</div>
+        <textarea class="review-input"></textarea>
+        <button class="review-send" onclick="handleReviewSubmit()">Опублікувати</button>
+        <div class="review-send-done" id="reviewSendDone">Дякуємо за відгук!<p>Система обробить ваш відгук та опублікує його.</p></div>
+
+        <div class="review-container">
+            <div class="name-and-rating">
+                <div class="name-of-reviewer">
+                    Олександр Коваленко
+                </div>
+
+                <img class="rating" src="pictures/reviews-page/ratings/rating-50.png">
+            </div>
+
+            <div class="review">
+                Дуже задоволений сервісом! Автомобіль був в ідеальному стані, швидко оформили всі документи. Співробітники дуже ввічливі та професійні. Я орендував авто на тиждень і жодних проблем не виникло. Повернення також пройшло без затримок і зайвих питань. Рекомендую всім, хто шукає надійну оренду авто, адже ваш сервіс дійсно вартий довіри.
+            </div>
+        </div>
+
+        <div class="review-container">
+            <div class="name-and-rating">
+                <div class="name-of-reviewer">
+                    Ольга Петренко
+                </div>
+
+                <img class="rating" src="pictures/reviews-page/ratings/rating-40.png">
+            </div>
+
+            <div class="review">
+                Гарний вибір автомобілів і приємний персонал. Трішки затримались з видачею, але загалом все добре. Автомобіль був чистий і в хорошому технічному стані. Користувалась сервісом вперше і залишилася задоволена. Єдине побажання — трохи прискорити процес бронювання та видачі автомобіля, щоб уникнути черг. В іншому ж сервіс чудовий, буду звертатися ще.
+            </div>
+        </div>
+
+        <div class="review-container">
+            <div class="name-and-rating">
+                <div class="name-of-reviewer">
+                    Дмитро Мельник
+                </div>
+                
+                <img class="rating" src="pictures/reviews-page/ratings/rating-50.png">
+            </div>
+
+            <div class="review">
+                Користувався послугами цього сервісу вже двічі. Жодних проблем, все швидко і якісно. Автомобілі завжди в чудовому стані, ніколи не виникало неприємних сюрпризів. Співробітники завжди допомагають вирішити будь-які питання. Особливо хочу відзначити чистоту авто і зручність процесу оренди. Дякую за стабільно високий рівень обслуговування!
+            </div>
+        </div>
+
+        <div class="review-container">
+            <div class="name-and-rating">
+                <div class="name-of-reviewer">
+                    Наталія Шевченко
+                </div>
+
+                <img class="rating" src="pictures/reviews-page/ratings/rating-40.png">
+            </div>
+
+            <div class="review">
+                Авто в хорошому стані, але процес бронювання трохи заплутаний. В цілому задоволена, проте було б добре спростити процедуру бронювання. Персонал дуже привітний і завжди готовий допомогти. Орендувала авто на кілька днів для поїздки в інше місто і залишилась задоволена. Автомобіль працював без збоїв, паливо було економне, що також дуже приємно.
+            </div>
+        </div>
+    </div>
+    <script src="javascript/reviews.js"></script>
+</body>
+</html>
