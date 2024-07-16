@@ -1,0 +1,262 @@
+body {
+    font-family: Roboto Condensed;
+}
+
+.name {
+    font-size: 30px;
+    font-weight: 700;
+    width: 30%;
+}
+
+.all-info {
+    margin-left: 100px;
+    margin-top: 50px;
+    display: flex;
+    padding: 20px;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+}
+
+.car-name,
+.price,
+.description {
+    margin-bottom: 40px;
+}
+
+.car-name {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.price {
+    color: orange;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.buy {
+    align-self: flex-start;
+    padding: 10px 20px;
+}
+
+.images {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.image-main {
+    border-radius: 15px;
+    max-width: 89%;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.image-sub {
+    cursor: pointer;
+    border-radius: 15px;
+    max-width: 40%;
+    max-height: 40%;
+    width: auto;
+    height: auto;
+    margin-right: 20px;
+}
+
+.image-subs {
+    display: flex;
+}
+
+.description-title {
+    font-weight: 700;
+    font-size: 25px;
+    text-decoration: underline;
+    text-decoration-color: orange;
+}
+
+.description {
+    color: rgb(98, 98, 98);
+    font-size: 17px;
+    display: grid;
+    grid-template-columns: 180px 40px 180px;
+}
+
+.buy {
+    color: white;
+    background-color: orange;
+    border: none;
+    padding: 12px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.buy:hover {
+    background-color: blue;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    pointer-events: none;
+}
+
+.application {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    z-index: 1001;
+    width: 30%;
+}
+
+.application-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.application-closer {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.rent-info,
+.client-info {
+    margin-top: 20px;
+}
+
+.rent-car-name,
+.rent-count-text,
+.rent-price,
+.rent-total-price {
+    margin-bottom: 10px;
+}
+.rent-image {
+    border-radius: 15px;
+    max-width: 30%;
+    max-height: 30%;
+    margin-bottom: 20px;
+}
+.rent-count-input {
+    width: 20px;
+}
+.rent-count-button {
+    width: 30px;
+    text-align: center;
+}
+.rent-button-revers {
+    width: 21px;
+    height: 21px;
+}
+.rent-count {
+    display: flex;
+    align-items: center;
+}
+.client-phone-input {
+    width: 200px;
+}
+.client-place-input {
+    width: 250px;
+}
+.client-comment-input {
+    width: 300px;
+}
+.client-checkout-input,
+.client-name-input,
+.client-phone-input, 
+.client-data-input, 
+.client-comment-input,
+.client-place-input {
+    border-radius: 15px;
+    height: 25px;
+    background-color: rgb(230, 230, 230);
+    padding: 4px 10px;
+}
+
+.application-name {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.client-button-rent {
+    background-color: orange;
+    color: white;
+    border-radius: 12px;
+    padding: 5px 20px;
+    font-size: 18px;
+    border: none;
+    width: 200px;
+}
+
+.order-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.client-button-rent:hover {
+    background-color: blue;
+}
+.client-closer-page {
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.client-closer {
+    background: rgba(234, 234, 234, 0.9); 
+    padding: 20px; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px; 
+    width: 100%;
+    position: relative; 
+    text-align: center; 
+}
+
+.client-closer-button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute; 
+    top: 10px; 
+    right: 10px; 
+}
+.error {
+    color: red;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.red-star {
+    color: red;
+}
