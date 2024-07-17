@@ -51,6 +51,7 @@ body {
     height: 200px;
     white-space: pre-wrap;
     padding: 10px;
+    border-radius: 15px;
 }
 
 .review-send {
@@ -96,6 +97,7 @@ body {
 .review-input-name {
     padding: 10px 10px;
     width: 200px;
+    border-radius: 15px;
 }
 .review-rating-rate {
     width: 65px;
