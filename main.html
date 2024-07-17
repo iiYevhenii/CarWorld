@@ -1,11 +1,372 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ua">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CarWorld</title>
+
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/footer.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">    
 </head>
 <body>
+    <main class="main-container">
+        <div class="presenting-block-container container">
+            <header class="header">
+                <div class="name"><a href="main.html">CarWorld</a></div>
+                <div class="bar">
+                    <a href="catalog.html"><div>Каталог</div></a>
+                    <a href="reviews.html"><div>Відгуки</div></a>
+                    <a href="contact.html"><div>Контакти</div></a>
+                </div>
+            </header>
+            <div class="presenting-block">
+                <div class="presenting-text-container">
+                    <div class="presenting-title">
+                        <span class="blue-dash">&mdash;</span>  
+                        Комфортні та дешеві автомобілі для вас!
+                    </div>
+                    <div class="presenting-name">
+                        <span>CarWorld </span>
+                        <span>Київ</span>
+                    </div>
+                    <div class="presenting-subtitle">
+                        Оренда автомобілів Київ
+                    </div>
+                </div>
+                <div class="presenting-links-container">
+                    <a class="about-us-anchor" href="#about-us-link"><div class="about-us-link">
+                        Більше про нас!
+                    </div></a>
+                    <div class="catalog-link">
+                        <a href="catalog.html"><span>Каталог</span> &#10148;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     
+        <div id="about-us-link" class="about-us-container container">
+            <div class="about-us-block block">
+                <div class="block-heading">
+                    &mdash;  Наші авто
+                </div>
+                <div class="block-title">
+                    Про нас
+                </div>
+                <div class="block-subtitle">
+                    Ми робимо все для вашого комфорту!
+                </div>
+                <div class="block-text">
+                    Ласкаво просимо на CarWorld Київ – ваш надійний партнер для оренди автомобілів у столиці України. Наш сайт пропонує широкий вибір автомобілів для будь-яких потреб: від компактних міських машин до розкішних представницьких авто. Ми прагнемо забезпечити вам комфорт та зручність під час поїздок містом та за його межами.
+                </div>
+            </div>
+        </div>
+    
+        <div class="security-and-info-container container">
+            <div class="block">
+                <div class="block-heading">
+                    &mdash;  Безпека понад усе!
+                </div>
+                <div class="block-title">
+                    Безпека
+                </div>
+                <div class="block-subtitle">
+                    Ми знаємо, наскільки важлива безпека наших клієнтів. Тому ми робимо все можливе, щоб проблем з нашими автомобілями не було.
+                </div>
+                <div class="block-text">
+                    Всі автомобілі, які ви можете орендувати, оснащені системами активної та пасивної безпеки. Крім того, наші автомобілі регулярно проходять техогляд і обслуговування у офіційного дилера.
+
+                    <p class="security-list-element">Особисте страхування від нещасних випадків</p>
+                    <p  class="security-list-element">Захист допомоги на дорозі</p>
+                    <p  class="security-list-element">Різні варіанти матеріальної відповідальності</p>
+                </div>
+            </div>
+
+            <div class="blue-car-container">
+                <img class="blue-car" src="pictures/main-page/blue-car.webp">
+            </div>
+
+            <div class="info-container">
+                <div class="info-block">
+                    <div class="info-block-number">
+                        1
+                    </div>
+                    <div class="info-block-title">
+                        Рік досвіду
+                    </div>
+                    <div class="info-block-subtitle">
+                        Ми новий сервіс, та не поступаємося в наданих послугах іншим!
+                    </div>
+                </div>
+
+                <div class="info-block">
+                    <div class="info-block-number">
+                        200
+                    </div>
+                    <div class="info-block-title">
+                        Клієнтів у місяць
+                    </div>
+                    <div class="info-block-subtitle">
+                        Набираючи популярність ми прагнемо більшого!
+                    </div>
+                </div>
+
+                <div class="info-block">
+                    <div class="info-block-number">
+                        24
+                    </div>
+                    <div class="info-block-title">
+                        Автомобілі
+                    </div>
+                    <div class="info-block-subtitle">
+                        Ви можете обрати те, що вам до душі!
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="car-categories-container">
+            <div class="category-block">
+                <div class="category-picture-container">
+                    <img class="category-picture" src="pictures/main-page/economical-car-category.webp">
+                </div>
+
+                <div class="category-title">
+                    Економ
+                </div>
+
+                <div class="category-subtitle">
+                    Дешево та комфортно!
+                </div>
+
+                <a href="catalog.html">
+                    <button class="go-to-category-button">
+                        Перейти
+                    </button>
+                </a>
+            </div>
+
+            <div class="category-block">
+                <div class="category-picture-container">
+                    <img class="category-picture" src="pictures/main-page/middle-category-car.webp">
+                </div>
+
+                <div class="category-title">
+                    Бізнес
+                </div>
+
+                <div class="category-subtitle">
+                    Для тих хто хоче більшого!
+                </div>
+
+                <a href="catalog.html">
+                    <button class="go-to-category-button">
+                        Перейти
+                    </button>
+                </a>
+            </div>
+
+            <div class="category-block">
+                <div class="category-picture-container">
+                    <img class="category-picture" src="pictures/main-page/elite-category-car.webp">
+                </div>
+
+                <div class="category-title">
+                    Елітний
+                </div>
+
+                <div class="category-subtitle">
+                    Комфортні автомобілі для вимогливих клієнти.
+                </div>
+
+                <a href="catalog.html">
+                    <button class="go-to-category-button">
+                        Перейти
+                    </button>
+                </a>
+            </div>
+        </div>
+
+        <div class="pricing-text-container">
+            <div class="block-title">
+                Ціни
+            </div>
+
+            <div class="pricing-text">
+                Ви платите не за модель автомобіля, а за його клас. Ми пропонуємо не тільки найкращі елітні автомобілі, але й найвигідніші умови оренди на будь-який термін.
+            </div>
+        </div>
+
+        <div class="pricing-container">
+            <div class="pricing-category-block">
+                <div class="block-heading">
+                    &mdash; Економ
+                </div>
+    
+                <div class="price-title">
+                    2000₴
+                </div>
+    
+                <div class="pricing-block-subtitle">
+                    В день
+                </div>
+    
+                <div class="list-of-cars-container">
+                    <p>KIA RIO HATCHBACK</p>
+                    <p>NISSAN SENTRA</p>
+                    <p>CHEVROLET CRUZE HATCHBACK</p>
+                </div>
+    
+                <a href="catalog.html">
+                    <button class="go-to-category-button">
+                        Перейти
+                    </button>
+                </a>
+            </div>
+
+            <div class="pricing-category-block pricing-middle-category-block">
+                <div class="white-color-text block-heading">
+                    &mdash; Бізнес
+                </div>
+    
+                <div class="white-color-text price-title">
+                    3500₴
+                </div>
+    
+                <div class="white-color-text pricing-block-subtitle">
+                    В день
+                </div>
+    
+                <div class="white-color-text list-of-cars-container">
+                    <p>Lexus SX350</p>
+                    <p>Jaguar XF</p>
+                    <p>Audi A6 or similar</p>
+                </div>
+    
+                <a href="catalog.html">
+                    <button class="go-to-category-button">
+                        Перейти
+                    </button>
+                </a>
+            </div>
+
+            <div class="pricing-category-block">
+                <div class="block-heading">
+                    &mdash; Елітний
+                </div>
+    
+                <div class="price-title">
+                    5000₴
+                </div>
+    
+                <div class="pricing-block-subtitle">
+                    В день
+                </div>
+    
+                <div class="list-of-cars-container">
+                    <p>McLaren Senna</p>
+                    <p>Porsche 911 GT2 RS</p>
+                    <p>Ford GT or similar</p>
+                </div>
+    
+                <a href="catalog.html">
+                    <button class="go-to-category-button">
+                        Перейти
+                    </button>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="questions-text-container">
+            <div class="block-heading">
+                &mdash;  Запитання
+            </div>
+
+            <div class="block-title">
+                Питання що часто задаються
+            </div>
+
+            <div class="questions-subtitle">
+                Ми пропонуємо прості та прозорі умови оренди авто на будь-який термін. Перегляньте інформацію нижче, і якщо у вас виникнуть запитання, ми з радістю на них відповімо.
+            </div>
+        </div>
+
+        <div class="faq-container">
+            <div class="question-block">
+                <div class="question">
+                    Як я можу орендувати автомобіль з вашими послугами?
+                </div>
+
+                <div class="answer">
+                    Ви повинні заповнити форму з вашмим даними та побажаннями по оренді. Наша система автоматично все оформить.
+                </div>
+            </div>
+
+            <div class="question-block">
+                <div class="question">
+                    Скільки часу потрібно, щоб забрати машину?
+                </div>
+
+                <div class="answer">
+                    Вам доведеться почекати не більше 20 хвилин, а потім ви зможете забрати машину, де забажаєте.
+                </div>
+            </div>
+
+            <div class="question-block">
+                <div class="question">
+                    Який мінімальний термін оренди?
+                </div>
+
+                <div class="answer">
+                    Ви можете орендувати автомобіль навіть на 1 день. Максимальний термін не передбачено.
+                </div>
+            </div>
+
+            <div class="question-block">
+                <div class="question">
+                    Що робити, якщо я хочу продовжити термін оренди?
+                </div>
+
+                <div class="answer">
+                    Просто зателефонуйте нашому менеджеру і попросіть продовжити термін оренди. Загальна сума буде оплачена при поверненні автомобіля.
+                </div>
+            </div>
+
+            <div class="question-block">
+                <div class="question">
+                    Як я оплачую період оренди?
+                </div>
+
+                <div class="answer">
+                    Перш ніж забрати автомобіль, уточніть дані на який строк ви орендуєте автомобіль. Коли ви повертаєте автомобіль, ми стягуємо загальну суму.
+                </div>
+            </div>
+
+            <div class="question-block">
+                <div class="question">
+                    Чи є у вас вікові чи інші обмеження?
+                </div>
+
+                <div class="answer">
+                    Кожен водій повинен мати дійсне водійське посвідчення протягом терміну оренди та бути віком не менше 18 років.
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bar">
+            <div class="name">CarWorld</div>
+            <div class="bar">
+                <a class="white-color-text" href="catalog.html"><div>Каталог</div></a>
+                <a class="white-color-text" href="reviews.html"><div>Відгуки</div></a>
+                <a class="white-color-text" href="contact.html"><div>Контакти</div></a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
